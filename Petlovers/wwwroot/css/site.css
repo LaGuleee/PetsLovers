@@ -1,37 +1,176 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
-
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
 }
 
-.imgback {
-  background-image:url(..//img//fondo.avif)
+a {
+    color: #0056b3;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #004080;
+    margin-top: 20px;
+}
+
+p, ul, label {
+    color: #333;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
 }
 
 
-h3 {
-    text-align: right;
+.seccion-info {
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f2f9ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h4 {
+form {
+    background-color: #f2f9ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.animal-card {
+    background-color: #f2f9ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.animal-card img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.animal-card table {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
+.animal-card h2 {
+    color: #004080;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.animal-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.animal-card a:hover {
+    background-color: #0056b3;
+}
+
+.contenedor {
+    background-color: #f2f9ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
     text-align: left;
 }
 
+.contenedor h2, .contenedor h3 {
+    color: #004080;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    background-color: #006c7a;
+    color: white;
+    border-top: 5px solid #008d99;
+    margin-top: 20px;
+}
+
+.footer-section {
+    text-align: center;
+    max-width: 200px;
+}
+
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+    font-size: 0.93em;
+    color: white;
+}
+
+
+.footer-section li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section li a:hover {
+    text-decoration: underline;
+}
