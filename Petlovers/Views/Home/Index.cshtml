@@ -2,15 +2,119 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenido a petlovers!</h1>
-   <p>Somos una entidad sin animo de lucro que busca optimizar y facilitar la adopcion de mascotas en colombia!</p>
-   
-      <h2>¿quienes somos?</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetLovers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-   <h3>
-   ¿porque adoptar?
-   </h3>
 
-   <h4>Donaciones y hogar de paso</h4>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="petslovers.png" alt="Logo" width="50" class="d-inline-block align-text-top">
+            PetLovers
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Información.html"><i class="fas fa-info-circle"></i> Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="M-Disponibles.html"><i class="fas fa-paw"></i> Mascotas Disponibles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Donaciones.html"><i class="fas fa-hand-holding-heart"></i> Donaciones</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido Principal -->
+<div class="container text-center mt-4">
+    <h1 class="display-4">Bienvenido a PetLovers!</h1>
+    <p>Somos una entidad sin ánimo de lucro que busca optimizar y facilitar la adopción de mascotas en Colombia.</p>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    
+    <div class="seccion-info">
+        <h2>¿Quiénes Somos?</h2>
+        <p>¿Estás buscando adoptar una mascota? En nuestra página web, te ayudamos a conectar con personas que desean darle un hogar a sus perros. Navega fácilmente por las opciones disponibles y encuentra a tu compañero ideal. ¡No esperes más y dale una oportunidad a un perro que necesita tu cariño!</p>
+    
+        <h2>Requisitos a tener en cuenta</h2>
+        <p>Recuerda que adoptar una mascota es un compromiso. Asegúrate de cumplir con lo siguiente:</p>
+        <ul>
+            <li>Ser mayor de edad.</li>
+            <li>Tener un espacio adecuado.</li>
+            <li>Compromiso a largo plazo.</li>
+            <li>Contar con tiempo y recursos para cuidarla.</li>
+        </ul>
+        <p>Si cumples con estos requisitos, ¡tu nuevo compañero te está esperando!</p>
+    </div>
+        
+    <form>
+        <hr>
+        <h2>Registro</h2>
+        <input type="text" placeholder="Nombres"><br>
+        <input type="text" placeholder="Apellidos"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="password" placeholder="Contraseña"><br>
+        <input type="password" placeholder="Confirmar Contraseña"><br>
+
+        <br><br><input type="checkbox" id="economia">
+        <label for="economia">¿Tienes la capacidad económica para cubrir las necesidades nutricionales y de salud de una mascota?</label><br><br>
+        <input type="checkbox" id="tiempo">
+        <label for="tiempo">¿Cuentas con el tiempo necesario para dedicarle diariamente a una mascota?</label><br><br>
+        <input type="checkbox" id="espacio">
+        <label for="espacio">¿Tu lugar de residencia tiene el espacio adecuado para que una mascota viva en condiciones dignas?</label><br><br>
+
+        <input type="submit" class="bth" value="Enviar"><br><br>
+        <hr>
+    </form>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Contáctanos</h3>
+            <ul>
+                <li>Correo: animal_soul098@gmail.com</li>
+                <li>Teléfono: +57 300 123 4567</li>
+                <li>WhatsApp: +57 300 765 4321</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Donaciones</h3>
+            <ul>
+                <li>Daviplata o Nequi: 123456789</li>
+                <li>Teléfono: +57 300 123 4567</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Síguenos en Redes Sociales</h3>
+            <ul>
+                <li>Instagram: PetsLovers (@petsloverss)</li>
+                <li>Facebook: PetsLovers ADM</li>
+                <li>YouTube: Petlovers A.D.M</li>
+            </ul>
+        </div>
+
+        <div class="footer-logo">
+            <img src="petslovers.png" alt="Logo" style="width:150px;height:auto;">
+        </div>
+    </footer>
+</body>
+</html>
